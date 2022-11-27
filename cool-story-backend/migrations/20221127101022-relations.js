@@ -13,17 +13,7 @@ module.exports = {
         onDelete: "SET NULL",
       }
      ),
-     await queryInterface.addColumn(
-      "users", "spaceId",{
-        type: Sequelize.INTEGER,
-        references: {
-          model: "spaces",
-          key: "id",
-        },
-        onUpdate: "CASCADE",
-        onDelete: "SET NULL",
-      }
-     ),
+
      await queryInterface.addColumn(
       "stories", "spaceId",{
         type: Sequelize.INTEGER,
@@ -34,18 +24,8 @@ module.exports = {
         onUpdate: "CASCADE",
         onDelete: "SET NULL",
       }
-     ),
-     await queryInterface.addColumn(
-      "spaces", "storyId",{
-        type: Sequelize.INTEGER,
-        references: {
-          model: "stories",
-          key: "id",
-        },
-        onUpdate: "CASCADE",
-        onDelete: "SET NULL",
-      }
      )
+ 
   },
 
   async down (queryInterface, Sequelize) {
