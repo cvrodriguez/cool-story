@@ -8,16 +8,14 @@ module.exports = {
         {
           title: "Home",
           description: "Sed et eleifend dolor, lacinia tincidunt libero. Pellentesque eu leo",
-          backgroundColor: "",
-          color: "",
+         
           createdAt: new Date(),
           updatedAt: new Date(),
         }, 
         {
           title: "Street",
           description: "Sed et eleifend dolor, lacinia tincidunt libero. Pellentesque eu leo",
-          backgroundColor: "",
-          color: "",
+         
           createdAt: new Date(),
           updatedAt: new Date(),
         
@@ -25,16 +23,14 @@ module.exports = {
         {
           title: "Park",
           description: "Sed et eleifend dolor, lacinia tincidunt libero. Pellentesque eu leo",
-          backgroundColor: "",
-          color: "",
+         
           createdAt: new Date(),
           updatedAt: new Date(),
         }, 
         {
           title: "Bank",
           description: "Sed et eleifend dolor, lacinia tincidunt libero. Pellentesque eu leo",
-          backgroundColor: "",
-          color: "",
+         
           createdAt: new Date(),
           updatedAt: new Date(),
         
@@ -42,8 +38,7 @@ module.exports = {
         {
           title: "Town",
           description: "Sed et eleifend dolor, lacinia tincidunt libero. Pellentesque eu leo",
-          backgroundColor: "",
-          color: "",
+         
           createdAt: new Date(),
           updatedAt: new Date(),
         
